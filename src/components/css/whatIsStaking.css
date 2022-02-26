@@ -1,0 +1,21 @@
+.networksDivvv {
+    /* border: 1px solid grey; */
+    width: 90%;
+    /* background-color: #111224; */
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: start;
+}
+@media (max-width: 410px) {
+    .networksDivvv {
+        font-size: 14px;
+    }
+}@media (max-width: 380px) {
+    .networksDivvv {
+        font-size: 13px;
+    }
+}

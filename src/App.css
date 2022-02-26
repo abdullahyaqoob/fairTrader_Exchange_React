@@ -1,0 +1,855 @@
+button:active, button:focus {
+  outline: none;
+}
+
+.MainDivMob, .MainDivDesktop {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.blackWholeDiv {
+  height: 40vh;
+  background-color: #000000;
+  color: white;
+  padding-top: 10px;
+}
+
+.fairtraderLogo {
+  width: 140px;
+}
+
+.bottomheaderDrop {
+  margin-left: 10px;
+  white-space: nowrap;
+  color: #0EC70D;
+}
+
+.headerLinks {
+  float: right;
+}
+
+.headerBtns {
+  background-color: transparent;
+  border: 2px solid #1DCCFF;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.sndHeaderBtn {
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+.sndHeaderBtn img {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* .sndHeaderBtn::before {
+  content: url("./Images/networkImg.png");
+  transform: scale(2);
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+.sndHeaderBtn::after {
+  content: url("./Images/networkDropdown.png");
+  position: relative;
+  left: 3px;
+  top: -5px;
+} */
+
+/* bottomHeader */
+.bottomHeader {
+  margin-top: 20px;
+}
+
+.bottomHeader p {
+  text-align: center;
+}
+
+.bottomHeaderLogo {
+  float: right;
+  margin-right: -15px;
+  width: 32px;
+  margin-top: 3px;
+}
+
+.colorBlueBold {
+  font-weight: bold;
+  color: #1DCCFF;
+}
+
+.graph img {
+  /* width: 480px; */
+  width: 100%;
+  height: 23%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* blueDiv */
+.blueDiv {
+  height: 60vh;
+  color: white;
+  background-color: #0561FB;
+  /* background-color: #380814; */
+  padding-top: 5px;
+}
+
+.MainLinks {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: -10px;
+}
+
+.mainLinksPics {
+  display: inline;
+  margin: 0 auto;
+}
+
+.mainLinksPics1 {
+  width: 43px;
+}
+
+.mainLinksPics2 {
+  width: 48px;
+}
+
+.blueBlackMainDiv {
+  background-color: black;
+  margin: 0 auto;
+  width: 85%;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.blackDivBtns {
+  width: 37px;
+}
+
+.blackDivBtnsIst {
+  width: 30px !important;
+}
+
+.blackDivBtnsIstImg {
+  width: 30px !important;
+}
+
+.blackConnectTxt {
+  text-align: center;
+  margin-left: 0px;
+  font-size: 21px;
+  font-weight: bold;
+  color: #1DCCFF;
+}
+
+.hr {
+  width: 100%;
+  margin-top: -1px;
+  border: 1px solid #0561FB;
+  background-color: #0561FB;
+}
+
+.greyDiv {
+  /* background-color: #2B2B2B; */
+  background-color: #262626;
+  width: 85%;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.greyDiv h4 {
+  font-size: 17px;
+}
+
+.blackBottomBtn {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 23px;
+  color: #1DCCFF;
+}
+
+.blackBottomBtn button {
+  background-color: transparent;
+  padding: 5px 20px;
+  border: 3px solid #1DCCFF;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.blackConnectTxtIstScreen {
+  color: #91D8F7 !important;
+}
+
+/* media queries */
+@media (max-width: 464px) {
+  .greyDiv h4 {
+    font-size: 15px;
+  }
+
+  .blackBottomBtn button {
+    font-size: 19px;
+  }
+
+  .headerBtns {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .MainLinks {
+    margin-bottom: -10px;
+  }
+
+  .blueDiv {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 430px) {
+  .fairtraderLogo {
+    width: 120px;
+  }
+
+  .sndHeaderBtn img {
+    width: 18px;
+  }
+
+  .headerBtns {
+    font-size: 13px;
+  }
+
+  .toggleBtn {
+    width: 35px;
+  }
+
+  .settingIcon {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 416px) {
+  .greyDiv h4 {
+    font-size: 14px;
+  }
+
+  .bottomheaderDrop {
+    margin-left: 15px;
+  }
+
+  .MainLinks {
+    width: 80%;
+  }
+
+  .mainLinksPics1 {
+    width: 40px;
+  }
+
+  .mainLinksPics2 {
+    width: 43px;
+  }
+
+}
+
+@media (max-width: 397px) {
+  .fairtraderLogo {
+    width: 110px;
+  }
+
+  .sndHeaderBtn img {
+    width: 16px;
+  }
+
+  .blackDivBtnsIstImg {
+    margin-left: 10px !important;
+  }
+
+  .headerBtns {
+    font-size: 12px;
+  }
+
+  .toggleBtn {
+    width: 30px;
+  }
+
+  .greyDiv h4 {
+    font-size: 13px;
+  }
+
+  .settingIcon {
+    margin-left: -10px;
+  }
+
+  .bottomHeaderLogo {
+    width: 28px;
+
+    float: left;
+    margin-left: -10px;
+  }
+
+  .bottomHeaderTxt {
+    font-size: 12px;
+  }
+
+  .marginLeft {
+    margin-left: -25px;
+  }
+
+  .marginLeftt {
+    margin-left: -12px;
+  }
+
+  .MainLinks {
+    width: 80%;
+  }
+}
+
+@media (max-width: 370px) {
+  .fairtraderLogo {
+    width: 100px;
+  }
+
+  .sndHeaderBtn img {
+    width: 14px;
+  }
+
+  .headerBtns {
+    font-size: 11px;
+  }
+
+  .toggleBtn {
+    width: 27px;
+  }
+
+  .settingIcon {
+    margin-left: -15px;
+  }
+
+  .greyDiv h4 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 343px) {
+  .fairtraderLogo {
+    width: 100px;
+  }
+
+  .sndHeaderBtn img {
+    width: 13px;
+  }
+
+  .headerBtns {
+    font-size: 10px;
+  }
+
+  .toggleBtn {
+    width: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .MainDivDesktop {
+    display: none;
+  }
+
+  .MainDivMob {
+    display: initial;
+  }
+}
+
+@media (min-width: 1000px) {
+  .MainDivDesktop {
+    display: initial;
+  }
+
+  .MainDivMob {
+    display: none;
+  }
+
+  .MainDivDesktop {
+    height: 40vh;
+    background-color: #000000;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .headerNav {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .sndHeaderBtn img {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    width: 25px;
+  }
+
+  .connectTxt {
+    padding-right: 12px;
+  }
+
+  .networkBtn {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+
+  .toggleBtn {
+    width: 45px;
+  }
+
+  .sndHeaderBtn {
+    background-color: #111224 !important;
+  }
+
+  .networksTxt {
+    position: relative;
+    top: 2px;
+  }
+
+  .desktopBlueDiv {
+    background-color: #2D7EF7;
+    width: 100%;
+  }
+
+  .desktopWhiteMainDiv {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .desktopWhiteDiv {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    color: #13579F;
+    padding-top: 25px;
+  }
+
+  .desktopWhiteDiv h1 {
+    font-size: 28px;
+  }
+
+  .desktopWhiteDiv p {
+    font-size: 16px;
+  }
+
+  .hrr {
+    width: 99.5%;
+    position: relative;
+    top: 10px;
+    border: 4px solid #224161;
+    background-color: #224161;
+  }
+
+  .MainDivMain {
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .HelpTxt {
+    display: inline;
+    color: #00FFFF;
+  }
+
+  .VideoTxt {
+    margin-left: 30px;
+
+  }
+
+  .bottomHeader {
+    background-color: black;
+    width: 90%;
+    height: 480px;
+    border-radius: 20px;
+    padding-top: 20px;
+  }
+
+  .graphDesktop img {
+    /* width: 480px; */
+    width: 87%;
+    height: 380px;
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, 0);
+
+  }
+
+  .bottomHeaderLogo {
+    width: 40px;
+  }
+
+  .bottomHeaderTxt {
+    font-size: 14px;
+  }
+
+  .marginLeft {
+    margin-left: 0px;
+  }
+
+  .marginLeftt {
+    margin-left: -40px;
+  }
+
+  .colorBlack {
+    color: black;
+  }
+
+  .bottomHeaderIstScreen {
+    background-color: black !important;
+  }
+
+  .bottomHeaderr {
+    background-color: #91D8F7;
+    width: 100%;
+    height: 480px;
+    border-radius: 20px;
+    margin-top: 13px;
+  }
+
+  .DeskContentDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .blackDivBtns {
+    width: 37px;
+    margin-top: 10px;
+  }
+
+  .blackConnectTxt {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .hr {
+    width: 100%;
+    margin-top: 0px;
+    border: 2px solid #0367FE;
+    background-color: #0367FE;
+  }
+
+  .settingIcon {
+    margin-left: -5px;
+  }
+
+  .colorGrey {
+    color: #41484D;
+    text-align: end;
+  }
+
+  .whiteDiv {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 7px 0;
+  }
+
+  .darkBlueDiv {
+    background-color: #111224;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 7px 0;
+  }
+
+  .optionStakeBtn {
+    background-color: #111224;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 100%;
+    width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .whiteStakeAmount h5 {
+    font-weight: bold;
+    text-align: end;
+    color: #0367FE;
+    font-size: 15px;
+  }
+
+  .extraFtpTxt h5 {
+    font-weight: bold;
+    text-align: start;
+    color: #F4F401;
+    font-size: 15px;
+  }
+
+  .MaxTxt {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    margin-left: 7px;
+  }
+
+  .twelveMntTxt {
+    margin-top: -10px;
+  }
+
+  .stakeBtns {
+    background-color: #111224;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .hello {
+    position: absolute;
+    left: 18px;
+  }
+
+  .helloo {
+    position: absolute;
+    right: 18px;
+  }
+
+  .greyDivIstscreen {
+    background-color: #182e2c !important;
+  }
+
+  .greyDiv {
+    /* background-color: #2B2B2B; */
+    background-color: #262626;
+    width: 95%;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .greyDiv h4 {
+    font-size: 20px;
+  }
+
+  .blackBottomBtn button {
+    background-color: transparent;
+    border: 4px solid #22A0E0;
+    color: #1FEEF4 !important;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+
+  .foooterDiv {
+    background-color: white;
+    color: black;
+  }
+
+  .footerInerDiv {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footerInerDiv {
+    padding-top: 20px;
+  }
+
+  .footerInerDiv .row .col-9 {
+    padding-top: 20px;
+    padding-left: 80px;
+  }
+
+  .footerDivCol9 h2 {
+    color: #10559e;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  .footerDivCol9 h6 {
+    color: #10559e;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+
+  .footerDivCol9 p {
+    color: #1d67b6;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+
+  .footerDivCol9 a {
+    text-decoration: underline;
+    color: rgb(86, 76, 221)
+  }
+
+  .footerBottom {
+    background-color: black !important;
+    height: 330px;
+    margin: 0 auto;
+  }
+
+  .footer_terms {
+    width: 70%;
+  }
+
+  .hrOfBottom {
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  .hrOfBottom p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1548px) and (min-width: 1000px) {
+  .greyDiv h4 {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1000px) {
+  .greyDiv h4 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1266px) and (min-width: 1000px) {
+  .greyDiv h4 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1455px) and (min-width: 1000px) {
+  .stakeBtns {
+    height: 48px;
+    width: 160px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1393px) and (min-width: 1000px) {
+  .optionStakeBtn {
+    width: 100%;
+  }
+
+  .extraImg {
+    width: 35px;
+  }
+
+  .stakeBtns {
+    height: 48px;
+    width: 150px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1000px) {
+  .stakeBtns {
+    height: 48px;
+    width: 140px;
+    font-size: 17px;
+  }
+}
+
+@media (max-height: 712px) {
+  .istScreenBtn {
+    margin-top: -0px !important;
+  }
+
+  .istScreenBtn button {
+    font-size: 16px !important;
+  }
+}
+
+
+
+
+
+/* which wallet */
+
+.whichWalletMainDiv, .whichWalletMainSubDiv {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.whichWalletMainDiv p {
+  font-size: 20px;
+}
+
+.whichWalletMainDiv p a {
+  color: #18B2DF;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.whichWalletBtn button {
+  padding: 5px 30px !important;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 12px;
+  border-radius: 14px !important;
+}
+
+.networkVideosBtn button {
+  padding: 5px 30px !important;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: -10px;
+  border-radius: 14px !important;
+}
+
+@media (max-width: 500px) {
+  .whichWalletMainSubDiv p {
+    font-size: 15px;
+    margin-top: -12px !important;
+  }
+}
+
+
+/* Staked tokens */
+@media (max-width: 390px) {
+  .clickToRlsTxt {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 365px) {
+  .clickToRlsTxt {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-height: 675px) {
+  .stakedTokensLink{
+    margin-top: 5px !important;
+    margin-bottom: -10px !important;
+  }
+}
