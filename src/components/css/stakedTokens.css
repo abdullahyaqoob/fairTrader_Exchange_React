@@ -1,0 +1,23 @@
+.stakedTknsHeadi{
+    text-align: center;
+    font-size: 15px;
+    color: #00ccff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1450px) and (min-width: 1000px) {
+    .stakedTknsHeadi{
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 390px) {
+    .mobileRectipUnstakeTxt{
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 360px) {
+    .mobileRectipUnstakeTxt{
+        font-size: 15px !important;
+    }
+}
