@@ -1,0 +1,116 @@
+.txsTxt{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1FE2FA;
+}
+.txsL{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.recentTxTxt, .blackConnectTxt, .blackConnectTxtIstScreen{
+    position: relative;
+    top: 5px;
+}
+
+
+@media only screen and (max-width: 1850px) and (min-width: 1000px) {
+    #recentTxTxt{
+        font-size: 21px !important;
+    }
+    .headingOfNewPeriodSelct{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 1780px) and (min-width: 1000px) {
+    #recentTxTxt{
+        font-size: 20px !important;
+    }
+    .headingOfNewPeriodSelct{
+        font-size: 15px !important;
+    }
+    .selctNewPeriodHR{
+        margin-top: 15px !important;
+    }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1000px) {
+    #recentTxTxt{
+        font-size: 19px !important;
+    }
+}
+@media only screen and (max-width: 1540px) and (min-width: 1000px) {
+    #recentTxTxt{
+        font-size: 18px !important;
+    }.headingOfNewPeriodSelct{
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 1386px) and (min-width: 1000px) {
+    #recentTxTxt{
+        font-size: 17px !important;
+    }
+    .headingOfNewPeriodSelct{
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width: 1100px) and (min-width: 1000px) {
+    .headingOfNewPeriodSelct{
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 1275px) and (min-width: 1000px) {
+    #recentTxTxt{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 1020px) and (min-width: 1000px) {
+    .testStakeHeading{
+        font-size: 18px !important;
+        margin-left: 10px;
+    }
+    .testStakeSubHeading{
+        font-size: 13px !important;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 420px) {
+    .recentTxTxt, .recentTxTxtt{
+        font-size: 18px !important;
+    }
+}
+@media (max-width: 400px) {
+    .recentTxTxt, .recentTxTxtt{
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 386px) {
+    .recentTxTxt{
+        font-size: 16px !important;
+    }
+     .recentTxTxtt{
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 386px) {
+    .recentTxTxt{
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .txsListHead{
+    font-size: 17px !important;
+}
+}
+@media (max-width: 341px) {
+    .txsListHead{
+    font-size: 16px !important;
+}
+}
+
+@media (min-width: 1000px) {
+    .txsTxt{
+        font-size: 17px !important;
+        font-weight: bold;
+        color: #1FE2FA;
+    }
+}

@@ -1,0 +1,127 @@
+.networksDivv {
+    border: 1px solid grey;
+    width: 90%;
+    background-color: #111224;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.selectPeriodDIv {
+    background-color: #182E2C !important;
+}
+
+.selectPeriodDIv h4 {
+    font-weight: bold;
+}
+
+.selectPeriodHR {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 0.1% solid grey; */
+    /* border: 5px dotted grey; */
+    /* border-style: dotted; */
+    border-bottom: 2px dotted #4F5554;
+    /* background-color: grey; */
+}
+
+.selectPeriodHead {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+    font-weight: bold;
+    color: #1DCCFF;
+}
+
+/* SELECT NEW PERIOD */
+.headingOfNewPeriodSelct {
+    text-align: start;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.networksDivvDesktop h4:hover, .twoMntStakeCrsrPointr {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1000px) {
+    .headingOfNewPeriodSelct {
+        font-size: 15px;
+    }
+
+    .selctNewPeriodHR {
+        margin-top: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1282px) and (min-width: 1000px) {
+    .selctNewPeriodHR {
+        margin-top: 40px !important;
+    }
+
+    .selctNewPeriodROW {
+        margin-bottom: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 1227px) and (min-width: 1000px) {
+    .headingOfNewPeriodSelct {
+        font-size: 14px;
+    }
+
+    .selctNewPeriodHR {
+        margin-top: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 1079px) and (min-width: 1000px) {
+    .selctNewPeriodHR {
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 384px) {
+    .selectPeriodHead {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 365px) {
+    .selectPeriodHead {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 367px) {
+    .selctPeriodNewTxt {
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 1000px) {
+    .networksDivvDesktop {
+        border: 1px solid grey;
+        width: 90%;
+        background-color: #111224;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        padding-top: 10px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .networksDivvDesktop h4 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

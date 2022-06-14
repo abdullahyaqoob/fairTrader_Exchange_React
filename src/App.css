@@ -1,0 +1,2005 @@
+/* Scroll Bar                     scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(131, 131, 131);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(99, 99, 99);
+  /* background: #16FE00;  */
+}
+
+/* ::-webkit-scrollbar {
+  width: 10px; */
+/* border: 5px solid #C1C1C1; */
+/* border: 5px solid black;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+  background-color: white;
+  background-clip: padding-box; */
+/* border: 1px solid #71777B; */
+/* } */
+
+/* ::-webkit-scrollbar-track {
+  background-color: #C1C1C1;
+  border: 1px solid #999999;
+} */
+/* Buttons */
+
+/* ::-webkit-scrollbar-button:single-button {
+  background-color: white;
+  display: block;
+  border-style: solid;
+  height: 8px;
+  width: 16px;
+} */
+/* Up */
+/* ::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0px 5px 7px 5px;
+  border-color: transparent transparent #313131 transparent;
+  border-radius: 2px;
+} */
+
+/* ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #777777 transparent;
+} */
+/* Down */
+/* ::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 7px 5px 0px 5px;
+  border-color: #313131 transparent transparent transparent;
+  border-radius: 2px;
+} */
+
+/* ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #777777 transparent transparent transparent;
+} */
+
+.stakedTokenBnbTxt {
+  text-align: start !important;
+}
+
+.stakedTokenBnbTxtValue {
+  text-align: end !important;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+.MainDivMob, .MainDivDesktop {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.blackWholeDiv {
+  /* height: 37.5vh; */
+  height: 35vh;
+  background-color: #000000;
+  color: white;
+  padding-top: 10px;
+}
+
+.fairtraderLogo {
+  width: 140px;
+}
+
+.bottomheaderDrop {
+  margin-left: 10px;
+  white-space: nowrap;
+  color: #0EC70D;
+}
+
+.headerLinks {
+  float: right;
+}
+
+.headerBtns {
+  background-color: transparent;
+  border: 2px solid #1DCCFF;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+}
+
+.sndHeaderBtn {
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+.sndHeaderBtn img {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.myAssetsHeading {
+  font-size: 15px;
+}
+
+/* .sndHeaderBtn::before {
+  content: url("./Images/networkImg.png");
+  transform: scale(2);
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+.sndHeaderBtn::after {
+  content: url("./Images/networkDropdown.png");
+  position: relative;
+  left: 3px;
+  top: -5px;
+} */
+
+/* bottomHeader */
+.bottomHeader {
+  margin-top: 20px;
+}
+
+.bottomHeader p {
+  text-align: center;
+}
+
+.bottomHeaderLogo {
+  float: right;
+  margin-right: -15px;
+  width: 32px;
+  margin-top: 3px;
+}
+
+.colorBlueBold {
+  font-weight: bold;
+  color: #1DCCFF;
+}
+
+.graphPhoto {
+  margin-top: 110px;
+}
+
+.graph img {
+  /* width: 480px; */
+  width: 100%;
+  height: 23%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* blueDiv */
+.blueDiv {
+  height: 65vh;
+  color: white;
+  background-color: #0561FB;
+  /* background-color: #380814; */
+  padding-top: 5px;
+}
+
+.MainLinks {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: -10px;
+}
+
+.mainLinksPics {
+  display: inline;
+  margin: 0 auto;
+}
+
+.mainLinksPics1 {
+  width: 43px;
+}
+
+.mainLinksPics2 {
+  width: 48px;
+}
+
+.blueBlackMainDiv {
+  background-color: black;
+  margin: 0 auto;
+  width: 85%;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.blackDivBtns {
+  width: 37px;
+}
+
+.blackDivBtnsIst {
+  width: 30px !important;
+}
+
+.blackDivBtnsIstImg {
+  width: 30px !important;
+}
+
+.blackConnectTxt {
+  text-align: center;
+  margin-left: 0px;
+  font-size: 21px;
+  font-weight: bold;
+  color: #1DCCFF;
+}
+
+.hr {
+  width: 100%;
+  margin-top: -1px;
+  border: 1px solid #0561FB;
+  background-color: #0561FB;
+}
+
+.greyDiv {
+  /* background-color: #2B2B2B; */
+  background-color: #262626;
+  width: 85%;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.greyDiv h4 {
+  font-size: 17px;
+}
+
+.blackBottomBtn {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 23px;
+  color: #1DCCFF;
+}
+
+.blackBottomBtn button {
+  background-color: #2223DE;
+  padding: 5px 20px;
+  border: 3px solid #32619E;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* media queries */
+@media only screen and (max-width: 1000px) and (min-width: 450px) {
+  .blackWholeDiv {
+    height: 39vh !important;
+  }
+
+  .blueDiv {
+    height: 61vh !important;
+  }
+}
+
+/* media queries */
+@media only screen and (max-width: 400px) and (min-width: 380px) {
+  .blackWholeDiv {
+    height: 36.5vh !important;
+  }
+
+  .blueDiv {
+    height: 63.5vh !important;
+  }
+}
+@media only screen and (max-width: 380px) and (min-width: 350px) {
+  .blackWholeDiv {
+    height: 34vh !important;
+  }
+
+  .blueDiv {
+    height: 66vh !important;
+  }
+}
+
+@media (max-width: 464px) {
+  .greyDiv h4 {
+    font-size: 15px;
+  }
+
+  .blackBottomBtn button {
+    font-size: 19px;
+  }
+
+  .headerBtns {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .MainLinks {
+    margin-bottom: -10px;
+  }
+
+  .blueDiv {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .settingIcon {
+    margin-left: -5px;
+  }
+}
+
+@media (max-width: 416px) {
+  .greyDiv h4 {
+    font-size: 14px;
+  }
+
+  .bottomheaderDrop {
+    margin-left: 15px;
+  }
+
+  .MainLinks {
+    width: 80%;
+  }
+
+  .mainLinksPics1 {
+    width: 40px;
+  }
+
+  .mainLinksPics2 {
+    width: 43px;
+  }
+
+}
+
+@media (max-width: 397px) {
+  .fairtraderLogo {
+    width: 110px;
+  }
+
+  .sndHeaderBtn img {
+    width: 16px;
+  }
+
+  .blackDivBtnsIstImg {
+    margin-left: 10px !important;
+  }
+
+  .headerBtns {
+    font-size: 12px;
+  }
+
+  .toggleBtn {
+    width: 30px;
+  }
+
+  .greyDiv h4 {
+    font-size: 13px;
+  }
+
+  .settingIcon {
+    margin-left: -10px;
+  }
+
+  .bottomHeaderLogo {
+    width: 28px;
+
+    float: left;
+    margin-left: -10px;
+  }
+
+  .bottomHeaderTxt {
+    font-size: 12px;
+  }
+
+  .marginLeft {
+    margin-left: -15px;
+  }
+
+  .marginLeftt {
+    margin-left: -5px;
+  }
+
+  .MainLinks {
+    width: 80%;
+  }
+
+  .whatStakePara1 {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 382px) {
+
+  .headerBtns {
+    font-size: 11px;
+  }
+
+  .newStakeWalCont {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .newStakeWalCont {
+    font-size: 15px !important;
+  }
+
+  .fairtraderLogo {
+    width: 100px;
+  }
+
+  .sndHeaderBtn img {
+    width: 14px;
+  }
+
+  .headerBtns {
+    font-size: 11px;
+  }
+
+  .toggleBtn {
+    width: 27px;
+  }
+
+  .settingIcon {
+    margin-left: -15px;
+  }
+
+  .greyDiv h4 {
+    font-size: 12px;
+  }
+
+  .whatStakePara1 {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .headerBtns {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 343px) {
+  .fairtraderLogo {
+    width: 100px;
+  }
+
+  .sndHeaderBtn img {
+    width: 13px;
+  }
+
+  .headerBtns {
+    font-size: 10px;
+  }
+
+  .toggleBtn {
+    width: 25px;
+  }
+}
+
+@media (min-width: 2200px) {
+  .singleBoxTxtLine span {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 2200px) {
+  .singleBoxTxtLine span {
+    font-size: 27px !important;
+  }
+}
+
+@media (max-width: 2003px) {
+  .singleBoxTxtLine span {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 1900px) {
+  .singleBoxTxtLine span {
+    font-size: 23px !important;
+  }
+}
+
+@media (max-width: 1765px) {
+  .singleBoxTxtLine span {
+    font-size: 21px !important;
+  }
+}
+
+@media (max-width: 1560px) {
+  .singleBoxTxtLine span {
+    font-size: 19px !important;
+  }
+}
+
+@media (max-width: 1355px) {
+  .singleBoxTxtLine span {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 1175px) {
+  .singleBoxTxtLine span {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 1075px) {
+  .singleBoxTxtLine span {
+    font-size: 13.5px !important;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .MainDivDesktop {
+    display: none;
+  }
+
+  .MainDivMob {
+    display: initial;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .MainDivDesktop {
+    display: initial;
+  }
+
+  .MainDivMob {
+    display: none;
+  }
+
+  .MainDivDesktop {
+    height: 40vh;
+    background-color: #000000;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .headerNav {
+    width: 71%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .navConnectBtn {
+    width: 30px !important;
+    margin-right: 10px !important;
+    margin: 3px 0px !important;
+  }
+
+  .navConnectSNDBtn {
+    margin-right: 10px !important;
+    margin: 2px 0px !important;
+  }
+
+  .navConnectTxt {
+    font-size: 18px !important;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .navFairtraderLogo {
+    width: 170px;
+  }
+
+  .MainDivMain {
+    width: 71%;
+    margin-top: 30px;
+  }
+
+  .sndHeaderBtn img {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    width: 25px;
+  }
+
+  .navBarDisConnectBTn {
+    font-weight: bold;
+    color: #1DCBFE;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 16px;
+  }
+
+  .navBarConnectBTn {
+    color: #E0E102;
+    margin-right: 28px;
+    margin-left: 28px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarNetworkBTn {
+    color: #1DCBFE;
+    font-weight: bold;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarDisNetworkBTn {
+    color: #1DCBFE;
+    font-weight: bold;
+    margin-right: 16px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navHeaderBtnDiv {
+    border-radius: 10px !important;
+    margin-right: 15px;
+  }
+
+  .headerBtnIst {
+    padding-left: 5px;
+  }
+
+  .connectTxt {
+    padding-right: 12px;
+  }
+
+  .networkBtn {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+
+  .toggleBtn {
+    width: 45px;
+  }
+
+  .sndHeaderBtn {
+    background-color: #111224 !important;
+  }
+
+  .networksTxt {
+    position: relative;
+    top: 2px;
+  }
+
+  .desktopBlueDiv {
+    background-color: #2D7EF7;
+    width: 100%;
+  }
+
+  .desktopWhiteMainDiv {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .desktopWhiteDiv {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    color: #13579F;
+    padding-top: 25px;
+  }
+
+  .desktopWhiteDiv h1 {
+    font-size: 28px;
+  }
+
+  .desktopWhiteDiv p {
+    font-size: 16px;
+  }
+
+  .hrr {
+    width: 99.5%;
+    position: relative;
+    top: 10px;
+    border: 4px solid #224161;
+    background-color: #224161;
+  }
+
+  .HelpTxt {
+    display: inline;
+    color: #00FFFF;
+  }
+
+  .VideoTxt {
+    margin-left: 30px;
+
+  }
+
+  .bottomHeader {
+    background-color: black;
+    width: 90%;
+    height: 480px;
+    border-radius: 20px;
+    padding-top: 20px;
+  }
+
+  .graphDesktop img {
+    /* width: 480px; */
+    width: 87%;
+    height: 380px;
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, 0);
+
+  }
+
+  .bottomHeaderLogo {
+    width: 40px;
+  }
+
+  .bottomHeaderTxt {
+    font-size: 14px;
+  }
+
+  .marginLeft {
+    margin-left: 0px;
+  }
+
+  .marginLeftt {
+    margin-left: -40px;
+  }
+
+  .colorBlack {
+    color: black;
+  }
+
+  .bottomHeaderr {
+    background-color: #91D8F7;
+    width: 100%;
+    height: 480px;
+    border-radius: 20px;
+    margin-top: 13px;
+  }
+
+  .DeskContentDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .blackDivBtns {
+    width: 37px;
+    margin-top: 10px;
+  }
+
+  .blackConnectTxt {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .hr {
+    width: 99%;
+    margin-top: 0px;
+    border: 2px solid #0367FE !important;
+    background-color: #0367FE;
+  }
+
+  .hrSnd {
+    width: 100%;
+    margin-top: 0px;
+    border: 4px solid #0367FE !important;
+    background-color: #0367FE;
+  }
+
+  .settingIcon {
+    margin-left: -5px;
+  }
+
+  .colorGrey {
+    color: #39393A;
+    text-align: end;
+    font-weight: bold;
+  }
+
+  .whiteDiv {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 7px 0;
+  }
+
+  .darkBlueDiv {
+    background-color: #111224;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 7px 0;
+  }
+
+  .optionStakeBtn {
+    background-color: #111224;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 100%;
+    width: 80%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .whiteStakeAmount h5 {
+    font-weight: bold;
+    text-align: end;
+    color: #0367FE;
+    font-size: 15px;
+  }
+
+  .extraFtpTxt h5 {
+    font-weight: bold;
+    text-align: start;
+    color: #F4F401;
+    font-size: 15px;
+  }
+
+  .MaxTxt {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    margin-left: 7px;
+  }
+
+  .twelveMntTxt {
+    margin-top: -10px;
+  }
+
+  .stakeBtns {
+    background-color: #111224;
+    border-radius: 14px;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .stakeNewBtn {
+    width: 80% !important;
+  }
+
+  .hello {
+    position: absolute;
+    left: 18px;
+  }
+
+  .helloo {
+    position: absolute;
+    right: 18px;
+  }
+
+  .greyDivIstscreen {
+    background-color: black !important;
+  }
+
+  .greyDivIstscreen h4 {
+    font-size: 19px !important;
+  }
+
+  .greyDiv {
+    /* background-color: #2B2B2B; */
+    background-color: #262626;
+    width: 95%;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .greyDiv h4 {
+    font-size: 20px;
+  }
+
+  .blackBottomBtn button {
+    background-color: #2223DE;
+    border: 3px solid rgb(0, 51, 154);
+    color: white !important;
+    height: 48px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 14px;
+
+
+
+    /* background-color: #111224;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px !important; */
+
+  }
+
+  .foooterDiv {
+    background-color: white;
+    color: black;
+  }
+
+  .footerInerDiv {
+    width: 71%;
+    margin: 0 auto;
+  }
+
+  .footerInerDiv {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  .footerInerDiv h2{
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+
+  .footerInerDiv .row .col-9 {
+    padding-top: 20px;
+    padding-left: 80px;
+  }
+
+  .exchnageBoxe {
+    border-radius: 15px;
+    width: 100%;
+    /* background-color: red; */
+    border: 2px solid #CBCBCB;
+    margin-top: 20px;
+  }
+
+  .insideExchagneBox{ 
+    margin-top: -7px;
+    padding: 19px;
+    padding-bottom: 37px;
+  }
+
+  .insideExchagneBox h5 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+
+  .singleBoxTxtLine {
+    margin-bottom: 7px;
+  }
+
+  .exchangeBoxesBTN {
+    background-color: #093399;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 24px;
+    font-size: 22px;
+    border: none;
+    position: relative;
+    top: 15px;
+    margin-bottom: -6px;
+  }
+
+  .exchangeBoxImg{
+    width: 101%;
+    padding: -2px !important;
+    margin: -2px !important;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+  }
+
+  .singleBoxTxtLine img {
+    margin-right: 10px;
+    margin-top: -7px;
+    width: 10px;
+  }
+
+  .singleBoxTxtLine span {
+    font-size: 20px;
+    /* color: #383536; */
+    color: rgb(43, 43, 43);
+  }
+
+  .singleBoxTxtLine span:hover {
+    cursor: pointer ;
+  }
+
+  .ExchangeBoxes {
+    /* width: 290px; */
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .footerDivCol9 h2 {
+    color: #10559e;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  .footerDivCol9 h6 {
+    color: #10559e;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+
+  .footerDivCol9 p {
+    color: #1d67b6;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+
+  .footerDivCol9 a {
+    text-decoration: underline;
+    color: rgb(86, 76, 221)
+  }
+
+  .footerBottom {
+    background-color: #071144 !important;
+    height: 330px;
+    margin: 0 auto;
+  }
+
+  .footer_terms {
+    width: 69.7%;
+  }
+
+  .hrOfBottom {
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  .hrOfBottom p {
+    font-size: 13px;
+  }
+
+  #footerBottomHR {
+    border: 1px solid #1183B7 !important;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 1900px) {
+  .navBarDisConnectBTn {
+    color: #1DCBFE;
+    margin-right: 21px;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .navBarConnectBTn {
+    color: #E0E102;
+    margin-right: 24px;
+    margin-left: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .networksOptions {
+    width: 175px !important;
+  }
+
+  .navBarNetworkBTn {
+    color: #1DCBFE;
+    font-weight: bold;
+    margin-right: 31px;
+    margin-left: 31px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarDisNetworkBTn {
+    color: #1DCBFE;
+    font-weight: bold;
+    margin-right: 11px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+}
+
+@media (max-width: 1820px) {
+  .navBarDisConnectBTn {
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 16px;
+  }
+
+  .navBarConnectBTn {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .networksOptions {
+    width: 165px !important;
+  }
+
+  .navBarNetworkBTn {
+    margin-right: 26px;
+    margin-left: 26px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarDisNetworkBTn {
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .settingIcon {
+    margin-left: 5px;
+  }
+
+  .bigScreenIssue {
+    margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 1760px) {
+  .navBarDisConnectBTn {
+    margin-right: 13px;
+    margin-left: 13px;
+    font-size: 16px;
+  }
+
+  .navBarConnectBTn {
+    margin-right: 17px;
+    margin-left: 17px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .networksOptions {
+    width: 160px !important;
+  }
+
+  .navBarNetworkBTn {
+    margin-right: 24px;
+    margin-left: 24px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarDisNetworkBTn {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .navBarDisConnectBTn {
+    margin-right: 14px;
+    margin-left: 14px;
+    font-size: 16px;
+  }
+
+  .navBarConnectBTn {
+    margin-right: 14px;
+    margin-left: 14px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .networksOptions {
+    width: 165px !important;
+  }
+
+  .navBarNetworkBTn {
+    margin-right: 28px;
+    margin-left: 28px;
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarDisNetworkBTn {
+    margin-right: 9px;
+    margin-left: 9px;
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media (max-width: 1631px) {
+  .navBarDisConnectBTn {
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 16px;
+  }
+
+  .navBarConnectBTn {
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+  }
+
+  .networksOptions {
+    width: 155px !important;
+  }
+
+  .navBarNetworkBTn {
+    margin-right: 23px;
+    margin-left: 23px;
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarDisNetworkBTn {
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media (max-width: 1560px) {
+  .navBarDisConnectBTn {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .navBarConnectBTn {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+  }
+
+  .networksOptions {
+    width: 148px !important;
+  }
+
+  .navBarNetworkBTn {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+
+  .navBarDisNetworkBTn {
+    margin-right: 1px;
+    margin-left: 1px;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+
+@media only screen and (max-width: 1635px) and (min-width: 1000px) {
+  .netwVidLAtokenTxtHeading {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 1558px) and (min-width: 1000px) {
+  .greyDiv h4 {
+    font-size: 19px;
+  }
+
+  .netwVidLAtokenTxtHeading {
+    font-size: 16px !important;
+  }
+
+  .recipt1ConfirmTxt {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1000px) {
+  #netwVidLAtokenTxtHeading {
+    font-size: 14px !important;
+  }
+
+  .swapTknsHeadi {
+    font-size: 16px !important;
+  }
+
+  .stakeNewBtn {
+    width: 77% !important;
+  }
+
+  .graphPhoto {
+    width: 430px;
+    margin-top: 125px;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1000px) {
+  .greyDiv h4 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1266px) and (min-width: 1000px) {
+  .greyDiv h4 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1455px) and (min-width: 1000px) {
+  .stakeBtns {
+    height: 48px;
+    width: 160px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1393px) and (min-width: 1000px) {
+  .optionStakeBtn {
+    width: 100%;
+  }
+
+  .extraImg {
+    width: 35px;
+  }
+
+  .stakeBtns {
+    height: 48px;
+    width: 150px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1000px) {
+  .stakeBtns {
+    height: 48px;
+    width: 140px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1888px) and (min-width: 1000px) {
+  .greyDivIstscreen h4 {
+    font-size: 18px !important;
+  }
+
+  .istScreenHR {
+    margin-top: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 1813px) and (min-width: 1000px) {
+  .istScreenHR {
+    margin-top: -7px !important;
+  }
+
+  .whichWalletMainSubDiv p {
+    font-size: 19px !important;
+  }
+}
+
+@media only screen and (max-width: 1755px) and (min-width: 1000px) {
+  .sndScrenPDFheading2 {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 1575px) and (min-width: 1000px) {
+  .greyDivIstscreen h4 {
+    font-size: 16px !important;
+  }
+
+  .istScreenHR {
+    margin-top: 10px !important;
+  }
+
+  .sndScrenPDFheading2, .sndScrenPDFheading3 {
+    font-size: 16px !important;
+  }
+
+  .whichWalletMainSubDiv p {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1000px) {
+  .greyDivIstscreen h4 {
+    font-size: 17px !important;
+  }
+
+  .istScreenHR {
+    margin-top: 4px !important;
+  }
+}
+
+@media only screen and (max-width: 1418px) and (min-width: 1000px) {
+  .greyDivIstscreen h4 {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 1360px) and (min-width: 1000px) {
+  .greyDivIstscreen h4 {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+  .istScreenHR {
+    margin-top: -5px !important;
+  }
+
+  .MaxTxtt {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 1227px) and (min-width: 1000px) {
+  .greyDivIstscreen h4 {
+    font-size: 17px !important;
+  }
+
+  .stakeNewBtn {
+    width: 95% !important;
+  }
+
+  .helloo {
+    position: absolute;
+    right: 22px;
+  }
+
+  .graphPhoto {
+    width: 380px;
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (max-width: 1130px) and (min-width: 1000px) {
+  .istScreenHR {
+    margin-top: -15px !important;
+  }
+
+  .helloo {
+    position: absolute;
+    right: 24px;
+  }
+
+  .stakeNewBtn {
+    width: 92% !important;
+  }
+}
+
+@media (max-height: 712px) {
+  .istScreenBtn {
+    margin-top: -0px !important;
+  }
+
+  .istScreenBtn button {
+    font-size: 16px !important;
+  }
+}
+
+
+
+
+
+/* which wallet */
+
+.whichWalletMainDiv, .whichWalletMainSubDiv {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.whichWalletMainDiv p {
+  font-size: 20px;
+}
+
+.whichWalletMainDiv p a {
+  color: #18B2DF;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.whichWalletBtn button {
+  padding: 5px 30px !important;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 12px;
+  border-radius: 14px !important;
+}
+
+.networkVideosBtn button {
+  padding: 5px 30px !important;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: -10px;
+  border-radius: 14px !important;
+}
+
+.whichWalletMainSubDiv p {
+  font-size: 21px;
+}
+
+@media only screen and (max-width: 1410px) and (min-width: 1000px) {
+  .whichWalletMainSubDiv p {
+    font-size: 19px;
+  }
+
+  .whichWalletHR {
+    margin-top: 38px !important;
+  }
+}
+
+@media only screen and (max-width: 1285px) and (min-width: 1000px) {
+  .whichWalletMainSubDiv p {
+    font-size: 18px;
+  }
+
+  .whichWalletHR {
+    margin-top: 44px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .whichWalletMainSubDiv p {
+    font-size: 15px;
+    margin-top: -12px !important;
+  }
+}
+
+
+/* Staked tokens */
+@media (max-width: 390px) {
+  .clickToRlsTxt {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 365px) {
+  .clickToRlsTxt {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-height: 675px) {
+  .stakedTokensLink {
+    margin-top: 5px !important;
+    margin-bottom: -10px !important;
+  }
+}
+
+.form-conrol {
+  font-size: 15px !important;
+  margin-bottom: -5px;
+}
+
+/* select Network */
+
+.networksOptions {
+  width: 182px;
+  position: absolute;
+  background-color: #00CCFF;
+  margin-top: 2px;
+  padding: 10px 5px 5px 10px;
+  z-index: 99;
+  border-radius: 6px;
+  color: #000000;
+}
+
+.networksOptions h3 {
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.networkCross {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1000px) {
+  .networksOptions {
+    width: 80px;
+  }
+
+  .fairtraderLogo {
+    width: 120px;
+  }
+
+  .sndHeaderBtn img {
+    width: 18px;
+  }
+
+  .headerBtns {
+    font-size: 12px;
+  }
+
+  .toggleBtn {
+    width: 35px;
+  }
+
+  .mobTokensImges {
+    position: relative;
+    top: -4px;
+  }
+
+  .mobTokensImgeNative img {
+    width: 35px !important;
+    top: -6px !important;
+    left: 15px !important;
+  }
+
+  .assetsLockedFTP img {
+    width: 36px !important;
+  }
+
+  .networksOptions {
+    width: 85px !important;
+  }
+
+  .networksOptions h3 {
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .graphPhoto {
+    width: 50%;
+    margin-top: 12px;
+  }
+}
+
+
+
+/* Sign IN BOX */
+.signInBox {
+  /* background-color: red; */
+  background-image: url(https://picsum.photos/id/1080/6858/4574), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.containersignInBox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.boxsignInBox {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  /* max-width: 50%;
+  max-height: 50%; */
+  height: 100%;
+  width: 100%;
+  padding: 20px 40px;
+}
+
+/* #top-div {
+  margin: -8px;
+  padding: 0;
+  height: 98vh;
+  background-color: #;
+  color: rgb(68, 68, 68);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+#main-div {
+  border-radius: 3px;
+  width: 600px;
+  margin: 60px auto;
+  background: #071144;
+  margin: 0px auto;
+}
+
+.second-div {
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px 10px #e4e4e4;
+  text-align: center;
+  width: 600px;
+  height: 650px;
+  margin-top: 50px;
+  /* height: auto; */
+}
+
+/* a {
+  list-style: none;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(83, 83, 83);
+  font-size: 18px;
+} */
+
+.lock-img {
+  max-height: 190px;
+  width: 500px;
+  margin-top: 30px;
+  /* margin-bottom: -90px; */
+  height: 200px;
+}
+
+.lock-div {
+  /* color: rgba(226, 10, 10, 0); */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lock-subheading {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in-sub {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: -5px;
+  color: rgb(204, 204, 204);
+}
+
+.input-fel {
+  width: 350px;
+  border: none;
+  padding-bottom: 7px;
+  border-bottom: 2px solid rgb(163, 163, 163);
+  /* for moving of feild */
+  transition-property: width;
+  transition-duration: 1s;
+  background: transparent;
+  /* transition-delay: 1s; */
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  background: transparent;
+}
+
+.setTokenPrice {
+  width: 200px;
+  /* for moving of feild */
+  transition-property: width;
+  transition-duration: 1s;
+  background: transparent;
+  /* transition-delay: 1s; */
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: #810580;
+  background: transparent;
+  border: 3px solid #810580;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.input-fel:hover {
+  border-bottom: 2px solid white;
+  color: white;
+  /* for moving of feild */
+  width: 230px;
+}
+
+.input-fel:active {
+  border-bottom: 2px solid white;
+  color: white;
+  /* for moving of feild */
+  width: 230px;
+}
+
+.input-fel:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  background: transparent;
+}
+
+.forgot-pass {
+  font-size: 10px;
+  margin-left: 65px;
+  color: rgb(74, 0, 192);
+  display: inline-block;
+}
+
+.forgot-passw {
+  font-size: 10px;
+  margin-right: 7px;
+  color: rgb(74, 0, 192);
+  display: inline-block;
+}
+
+.log-in {
+  padding: 11px 29px;
+  /* background-color: rgb(97, 50, 158); */
+  background-color: #09993b;
+  border: 1px solid rgb(185, 185, 185);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.setTOkenPRiceBTN {
+  padding: 2px 5px;
+  font-size: 14px;
+  margin-left: -38px;
+  color: #810580;
+  background: none !important;
+  border-left: 3px solid #810580;
+  border-radius: 0px;
+
+}
+
+.setTOkenPRiceBTN:hover {
+  color: white !important;
+  background: #09993b !important;
+  border-left: 3px solid #09993b !important;
+  border-radius: 0px !important;
+
+}
+
+.log-in-loader {
+  padding: 11px 29px;
+  /* background-color: rgb(97, 50, 158); */
+  background-color: rgb(40, 0, 93);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.log-in:hover {
+  background-color: rgb(231, 231, 231);
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  border: 1px solid rgb(40, 0, 93);
+}
+
+@media screen and (max-width:680px) {
+  #main-div, .second-div {
+    width: 400px;
+  }
+
+  .lock-img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:428px) {
+  .assetsValueHeading {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .graphPhoto {
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media screen and (max-width:700px) {
+  .graphPhoto {
+    width: 70%;
+    top: 10%;
+  }
+}
+
+
+
+@media screen and (max-width:550px) {
+  .graphPhoto {
+    width: 70%;
+    top: 12%;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .graphPhoto {
+    width: 70%;
+    top: 13%;
+  }
+}
+
+@media screen and (max-width:370px) {
+  .graphPhoto {
+    width: 65%;
+    top: 10%;
+  }
+  .firstScreenMobBtn{
+    margin-top: 12px !important;
+    margin-bottom: 4px !important;
+  }
+  .stakeBtnss{
+    font-size: 15px !important;
+    height: 37px !important;
+    width: 160px !important;
+    margin-top: 8px !important;
+    margin-bottom: -2px !important;
+  }
+  .stakePageStakeBTN{
+    font-size: 14px !important;
+    height: 35px !important;
+    width: 150px !important;
+    margin-top: 0px !important;
+    margin-bottom: -5px !important;
+  }
+}

@@ -1,0 +1,155 @@
+  .amountStakeBtns {
+      background-color: #111224;
+      color: white;
+      border: none;
+      height: 40px;
+      width: 150px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 20px !important;
+  }
+
+  .hrStack {
+      width: 100%;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      border: 1px solid #0367FE;
+      background-color: #0367FE;
+  }
+
+  .optionsOfStake {
+      background-color: #111224;
+      border-radius: 10px;
+      color: white;
+      border: none;
+      height: 80%;
+      width: 70%;
+      margin-top: 6px;
+      font-size: 14px;
+      font-weight: bold;
+      position: relative;
+      top: -4px;
+  }
+
+  .stakePeriodDropdown {
+      position: relative;
+      top: 0px;
+      left: 4px;
+      /* margin-left: -5px; */
+  }
+
+  .stakeExtraFtpTokenImg {
+      margin-top: 4px;
+      /* float: right;
+      margin-right: -16px; */
+  }
+
+  @media only screen and (max-width: 1560px) and (min-width: 1000px) {
+      .SelectStakePeriodContent {
+          font-size: 13px;
+          position: relative;
+          left: 4px;
+      }
+
+      .stakePeriodDropdown {
+          width: 24px;
+      }
+  }
+
+  @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      .SelectStakePeriodContent {
+          font-size: 12px;
+      }
+
+      .stakePeriodDropdown {
+          width: 22px;
+      }
+
+      .stakeExtraFtpTokenImg {
+          margin-left: -5px;
+      }
+  }
+
+  @media only screen and (max-width: 1335px) and (min-width: 1000px) {
+      .SelectStakePeriodContent {
+          font-size: 11px;
+      }
+
+      .stakePeriodDropdown {
+          width: 18px;
+          /* margin-top: 5px; */
+      }
+  }
+
+  @media (max-width: 400px) {
+      .perAnnum {
+          margin-top: -19px !important;
+      }
+
+      .SelectStakePeriodContent {
+          font-size: 12px;
+      }
+
+      .stakePeriodDropdown {
+          width: 20px;
+          margin-top: 5px;
+      }
+  }
+
+  @media (max-width: 386px) {
+      .perAnnum {
+          margin-top: -19px !important;
+      }
+
+      .optionsOfStake {
+          font-size: 13px;
+      }
+
+      .amountStakeBtns {
+          height: 35px;
+          width: 130px;
+          font-size: 13px;
+          /* margin-top: -5px; */
+          margin-bottom: 5px;
+      }
+
+      .hrStack {
+          margin-top: -7px;
+      }
+  }
+
+  @media (max-width: 372px) {
+      .perAnnum {
+          margin-top: -19px !important;
+      }
+
+      .optionsOfStake {
+          font-size: 12px;
+      }
+
+      .amountStakeBtns {
+          height: 35px;
+          width: 130px;
+          font-size: 13px;
+          margin-top: -5px;
+          margin-bottom: 5px;
+      }
+
+      .hrStack {
+          margin-top: -7px;
+      }
+  }
+
+  @media (max-width: 372px) {
+
+      .optionsOfStake {
+          font-size: 11px;
+      }
+
+  }
+
+  @media (max-width: 357px) {
+      .SelectStakePeriodContent {
+          font-size: 11px;
+      }
+  }

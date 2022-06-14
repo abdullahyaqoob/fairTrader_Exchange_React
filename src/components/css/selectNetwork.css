@@ -1,0 +1,39 @@
+.networksDiv{
+    border: 1px solid grey;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    padding-top: 12px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.selectNetworkHR{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0.1% solid grey;
+    background-color: grey;
+}
+.marginTop {
+    margin-top: -6px;
+}
+.bottomBtns{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    /* position: absolute;
+    bottom: 2%; */
+    color: #1FE2FA !important;
+}
+.networksDivDesktop{
+    border: 1px solid grey;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 22px;
+}

@@ -1,0 +1,174 @@
+.greyDiv2 {
+  background-color: black;
+  width: 92%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 8px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.greyDiv5 {
+  background-color: black;
+  width: 92%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.greyDiv5 h5 {
+  font-size: 18px;
+}
+
+.greyDiv5 p {
+  font-size: 11px;
+}
+
+.pdfheading {
+  font-size: 15px;
+}
+
+.pdfPara {
+  font-size: 11px;
+}
+
+.blackBottomBtn2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #1DCCFF;
+}
+
+.blackBottomBtn2 button {
+  background-color: transparent;
+  border: 3px solid #1DCCFF;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.blackDivBtns2 {
+  width: 33px;
+  margin-top: 0px;
+}
+
+.blackConnectTxt2 {
+  margin-top: 5px;
+  text-align: center;
+  margin-left: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1DCCFF;
+}
+
+.blueBlackMainDiv2 {
+  background-color: black;
+  margin: 0 auto;
+  width: 85%;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.blueBlackMainDiv3 {
+  background-color: black;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.greyDiv2Desktop {
+  background-color: black;
+  width: 92%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 15px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.greyDiv2DeskAssets {
+  background-color: #262626;
+  width: 92%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.greyDiv2DeskAssets h5 {
+  font-size: 18px;
+}
+@media only screen and (max-width: 1450px) and (min-width: 1000px) {
+  .pdfheading{
+    font-size: 16px !important;
+  }
+  .sndScrenPDFheading2, .sndScrenPDFheading3{
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 1320px) and (min-width: 1000px) {
+  .pdfheading{
+    font-size: 15px !important;
+  }
+  .networdVideosHR{
+    margin-top: 50px !important;
+  }
+  .sndScrenPDFheading2, .sndScrenPDFheading3{
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 454px) {
+  .pdfheading {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 427px) {
+  .pdfheading {
+    font-size: 13px;
+  }
+
+}
+
+
+@media (max-width: 383px) {
+  .pdfheading {
+    font-size: 12px;
+  }
+
+  .pdfPara {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 356px) {
+  .pdfheading {
+    font-size: 11px;
+  }
+
+  .pdfPara {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pdfheading {
+    font-size: 18px;
+  }
+
+  .pdfPara {
+    font-size: 12px;
+  }
+}
